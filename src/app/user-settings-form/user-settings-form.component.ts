@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
       <form #form="ngForm">
         <div class="form-group">
         <label for="name"></label>
-        <input id="name" name="name" class="form-control" placeholder="Name" />
+        <input id="name" name="name" class="form-control" placeholder="Name" ngModel />
         </div>
 
       <div class="form-check form-group">
