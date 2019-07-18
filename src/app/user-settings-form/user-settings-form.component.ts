@@ -68,7 +68,10 @@ import { Component, OnInit } from '@angular/core';
       </form>
     </div>
     <pre>
+    <!--
     {{ form | json }}
+    -->
+    {{ form.value | json }}
     </pre>
   `,
   styles: [
