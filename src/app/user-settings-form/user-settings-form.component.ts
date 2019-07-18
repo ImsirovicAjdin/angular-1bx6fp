@@ -3,10 +3,14 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-user-settings-form',
   template: `
-    <div>
+    <div class="conatiner">
+      <h2>User settings</h2>
       <form>
-        <input placeholder="Name" />
-        <button>Ok</button>
+        <div class="form-group">
+        <label for="name"></label>
+        <input id="name" name="name" class="form-control" placeholder="Name" />
+        </div>
+        <button class="btn btn-secondary">Ok</button>
       </form>
     </div>
   `,
