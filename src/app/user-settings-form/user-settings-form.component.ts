@@ -3,7 +3,12 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-user-settings-form',
   template: `
-    <div> UserSettingsFormComponent works! </div>
+    <div>
+      <form>
+        <input placeholder="Name" />
+        <button>Ok</button>
+      </form>
+    </div>
   `,
   styles: [
 
