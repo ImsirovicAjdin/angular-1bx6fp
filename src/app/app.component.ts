@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
   selector: 'my-app',
   template: `
     <div>Working with forms</div>
+    <app-user-settings-form></app-user-settings-form>
   `
 })
 export class AppComponent  {
