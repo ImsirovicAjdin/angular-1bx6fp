@@ -67,6 +67,9 @@ import { Component, OnInit } from '@angular/core';
         <button class="btn btn-secondary">Ok</button>
       </form>
     </div>
+    <pre>
+    {{ form | json }}
+    </pre>
   `,
   styles: [
 

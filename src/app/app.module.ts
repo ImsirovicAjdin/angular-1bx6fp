@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-//import { FormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { UserSettingsFromComponent } from './user-settings-form/user-settings-form.component';
@@ -8,7 +8,7 @@ import { UserSettingsFromComponent } from './user-settings-form/user-settings-fo
 @NgModule({
   imports: [ 
     BrowserModule, 
-    //FormsModule 
+    FormsModule 
   ],
   declarations: [ AppComponent, UserSettingsFromComponent ],
   bootstrap:    [ AppComponent ]
