@@ -3,9 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-user-settings-form',
   template: `
-    <div class="conatiner">
+    <div class="container">
       <h2>User settings</h2>
-      <form>
+      <form #form="ngForm">
         <div class="form-group">
         <label for="name"></label>
         <input id="name" name="name" class="form-control" placeholder="Name" />
